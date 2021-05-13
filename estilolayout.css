@@ -1,0 +1,50 @@
+body {  
+        color:blue;
+	    font-family: 'Times New Roman', Times, serif;
+		font-size:12px;
+}
+
+section{ 
+        color:blue;
+        width:60%;
+		margin:auto;
+}
+
+
+header {
+	    color:blue;
+	    width:100%;
+		height:150px
+		background:#00FFFF;
+}
+
+aside {
+	   color:white;
+	   width:20%;
+	   height:770px;
+	   background:#0000FF;
+       float:left;
+}
+
+nav {
+	   float: right;
+	   width:80%;
+	   height:60px;
+	   background:#00FFFF;
+
+}
+
+main {
+	  color:blue;
+	  width:80%;
+	  height:710px;
+	  background:#84EAFA;
+}
+
+footer {
+      width:100%;
+	  height:50px;
+	  
+	  background:#000;
+	  color:#fff;
+}
