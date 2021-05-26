@@ -1,0 +1,43 @@
+rodape
+{
+	clear:both;
+	background-color:#FFFF00;
+	text-align:center;
+	line-height:50px;
+}
+
+nav
+{
+	width:100%;
+	height:auto;
+	text-align:center;
+	background-color:#FF4500;
+}
+
+body
+{
+	background-color: #FFD700; 
+}
+
+article
+{
+	color:#6959CD;
+}
+
+p
+{ 
+    color: #1C1C1C;
+    text-align:center;
+	font-style: italic;
+	line-height:30px;
+	
+}
+
+h2 {
+   border: 3px solid black;
+   text-align:center;
+}
+
+p.thicker {
+  font-weight: 900;
+}
