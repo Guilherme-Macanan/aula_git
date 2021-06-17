@@ -1,0 +1,85 @@
+body {
+	
+	font:font-family: 'Orbitron', sans-serif;
+	color:#1C1C1C;
+}
+
+header {
+	height:120px;
+	background:#1C1C1C;
+	color:#1C1C1C;
+}
+
+main {
+	width:100px;
+	background:#363636;
+	float:center;
+}
+
+main {
+	width:600px;
+	background:#363636;
+	float:left;
+}
+
+aside {
+	width:341px;
+	float:right;
+	background:#000000;
+}
+
+footer {
+	clear:both;
+	}
+	
+section {
+	padding:5px;
+	width:960px;
+	margin: 20px auto;
+}
+	
+	
+/*Acabamentos - Frufru*/
+main {
+	background-color:#363636;
+	
+}
+main {
+	background-color:#363636;
+}
+
+aside {
+	background-color:#000000;
+}
+
+footer {
+	background-color:#000000;
+}
+
+header, main, aside {margin-bottom:5px;}
+section, header, aside, main, footer{
+	border:solid 1px #7FFFD4;
+	border-radius:10px;
+}
+
+
+/*Media Queria com regras responsivas*/
+/*Mobile First*/
+/*Resolução máxima de 480px*/
+@media screen and (max-width:480px) {
+	header {height:auto; width:100%;}
+	aside {display:none; width:100%;}
+}
+
+/*Resolução máxima de 768px*/
+@media screen and (max-width:768px) {
+	main {width:auto; float:100%;}
+	aside {width:auto; float:none;}
+}
+
+/*Resolução máxima de 1279px*/
+@media screen and (max-width:1279px) {
+	section {width:100%;}
+	main {width:78%;}
+	aside {width:90%;}
+}
