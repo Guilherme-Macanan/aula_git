@@ -1,0 +1,15 @@
+void main(){
+ 
+ //lista com valores inteiros
+ List<int> numerosInteiros = [30, 50, 60, 70];
+ print(numerosInteiros);
+  
+ //lista com valores genéricos
+ List dadosGenericos = [10, "Ana", true, 20];
+ print(dadosGenericos);
+  
+ //lista vazia escalável
+ List<int> lista = new List.empty(growable: true);
+ print(lista);
+  
+}

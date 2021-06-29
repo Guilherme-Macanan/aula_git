@@ -1,0 +1,10 @@
+void main(){
+ 
+  List<String> jogadores = ["Pelé", "Maradona", "Zico", "Jairzinho", "Sócrates"];
+  
+  print(jogadores);
+  //impressao atraves de indice
+  print(jogadores[2]);
+  print(jogadores[3]);
+  
+}

@@ -1,0 +1,15 @@
+void main(){
+ 
+  List<int> lista = new List.empty(growable: true);
+  
+  //método para adicionar elementos na lista
+  lista.add(100);
+  lista.add(200);
+  
+  List nomes = [];
+  
+  nomes.add('Paulo');
+  nomes.add('Andreza');
+  print(nomes);
+  
+}

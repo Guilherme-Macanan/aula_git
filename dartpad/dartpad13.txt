@@ -1,0 +1,13 @@
+void main() {
+  
+  List<int> numeros = [2, 4, 6, 8, 10];
+  List<int> numerosaoquadrado = new List.empty(growable: true);
+  
+  numeros.forEach{(num)}
+ 
+    numerosaoquadrado.add(num * num);
+  
+  ));
+  
+  print(numerosaoquadrado);
+}

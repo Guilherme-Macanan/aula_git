@@ -1,0 +1,16 @@
+void main(){
+ 
+List animal = [];
+  
+ animal,add('gato');
+  animal.add('cachorro');
+  animal.add('passarinho');
+  animal.add('cobra');
+  animal.add('cavalo');
+  animal.add('elefante');
+  
+  print("O tamanho da lista é: $(animal,lenght)");
+  
+  print(animal);
+  
+}

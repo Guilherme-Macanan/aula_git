@@ -1,0 +1,20 @@
+void main() {
+ 
+ List<String> vingadores =['Iron Man', 'Thor', 'Capitão América', 'Hulk'];
+  
+  //metodo de imprimir a lista
+  print(vingadores);
+  
+  //remove o elemento da lista
+  vingadores.removeAt('Thor');
+  
+  //metodo de imprimir a lista
+  print(vingadores);
+  
+  //metodo que remove o elemento pelo indice
+  vingadores.removeAt(1);
+  
+  //metodo de imprimir a lista
+  print(vingadores);
+  
+}

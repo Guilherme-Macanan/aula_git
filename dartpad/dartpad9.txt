@@ -1,0 +1,18 @@
+void main(){
+ 
+List<string> meses =["Jan", "fev", "mar", "abril"];
+  //limpando a lista
+  meses.clear();
+  print(meses);
+  
+    //limpando a lista
+  meses.clear();
+  
+  meses.add("Jan");
+   meses.add("Dez");
+  
+   print(meses);
+  
+  //verificar se a lista não está vazia
+  print(meses.isNotEmpty);
+}

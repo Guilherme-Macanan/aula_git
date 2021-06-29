@@ -1,0 +1,12 @@
+void main() {
+  
+  List<String> arvore =["folha", "caule", "raiz", "galho"];
+  
+  //verifica se existe o elemento
+  print(arvore.contains("caule"));
+  
+  arvore.sort();
+  print(arvore);
+  
+  
+ }

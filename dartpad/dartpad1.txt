@@ -1,0 +1,11 @@
+void main(){
+  
+ List<int>numerosInteiros = [30, 50, 60, 70];
+  print(numerosInteiros);
+  
+  List dadosGenericos = [10, "Ana", true, 20];
+  print(dadosGenericos);
+  
+  
+  
+}

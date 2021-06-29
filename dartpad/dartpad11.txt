@@ -1,0 +1,12 @@
+void main() {
+  
+  List<int> numeros = List.generate(50, (i) => (i++));
+ print(numeros);
+  
+  //tabuada do 3
+ var num = 3;
+  List<int> tabuada = List.generate(10, (i) => (i++)*num);
+  print(tabuada);
+  
+}
+  

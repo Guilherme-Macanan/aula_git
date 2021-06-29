@@ -1,0 +1,11 @@
+void main(){
+ 
+  List fruta = ["banana", "Uva", "melão", "Abacaxi", "maracuja"];
+  
+  //metodo para remover elemento da lista
+  fruta.renove('banana');
+  
+  print(fruta);
+  
+  
+}
